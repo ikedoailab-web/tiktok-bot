@@ -1,0 +1,19 @@
+{
+  "name": "tiktok-bot",
+  "version": "0.1.0",
+  "description": "Personal TikTok uploader bot using TikTok Content Posting API",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "oauth": "node src/oauth.js",
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/oauth.js && node --check src/tiktokClient.js && node --check src/logger.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

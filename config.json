@@ -1,0 +1,5 @@
+{
+  "max_per_run": 2,
+  "default_caption_template": "{{filename}} を自動投稿",
+  "default_hashtags": ["#自動投稿", "#tiktokbot"]
+}
